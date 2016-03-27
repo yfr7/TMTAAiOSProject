@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26368581CA8A98000DF3B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26368571CA8A98000DF3B0C /* AppDelegate.swift */; };
+		F263685A1CA8A98000DF3B0C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26368591CA8A98000DF3B0C /* RootViewController.swift */; };
+		F263685C1CA8A98000DF3B0C /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263685B1CA8A98000DF3B0C /* DataViewController.swift */; };
+		F263685E1CA8A98000DF3B0C /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263685D1CA8A98000DF3B0C /* ModelController.swift */; };
+		F26368611CA8A98000DF3B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F263685F1CA8A98000DF3B0C /* Main.storyboard */; };
+		F26368631CA8A98000DF3B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26368621CA8A98000DF3B0C /* Assets.xcassets */; };
+		F26368661CA8A98000DF3B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26368641CA8A98000DF3B0C /* LaunchScreen.storyboard */; };
+		F26368711CA8A98000DF3B0C /* Acontece_AngolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26368701CA8A98000DF3B0C /* Acontece_AngolaTests.swift */; };
+		F263687C1CA8A98000DF3B0C /* Acontece_AngolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263687B1CA8A98000DF3B0C /* Acontece_AngolaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F263686D1CA8A98000DF3B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F263684C1CA8A98000DF3B0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26368531CA8A98000DF3B0C;
+			remoteInfo = "Acontece Angola";
+		};
+		F26368781CA8A98000DF3B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F263684C1CA8A98000DF3B0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26368531CA8A98000DF3B0C;
+			remoteInfo = "Acontece Angola";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F26368541CA8A98000DF3B0C /* Acontece Angola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acontece Angola.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26368571CA8A98000DF3B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F26368591CA8A98000DF3B0C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F263685B1CA8A98000DF3B0C /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		F263685D1CA8A98000DF3B0C /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		F26368601CA8A98000DF3B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F26368621CA8A98000DF3B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26368651CA8A98000DF3B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F26368671CA8A98000DF3B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F263686C1CA8A98000DF3B0C /* Acontece AngolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acontece AngolaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26368701CA8A98000DF3B0C /* Acontece_AngolaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acontece_AngolaTests.swift; sourceTree = "<group>"; };
+		F26368721CA8A98000DF3B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26368771CA8A98000DF3B0C /* Acontece AngolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acontece AngolaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F263687B1CA8A98000DF3B0C /* Acontece_AngolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acontece_AngolaUITests.swift; sourceTree = "<group>"; };
+		F263687D1CA8A98000DF3B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26368511CA8A98000DF3B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26368691CA8A98000DF3B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26368741CA8A98000DF3B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F263684B1CA8A98000DF3B0C = {
+			isa = PBXGroup;
+			children = (
+				F26368561CA8A98000DF3B0C /* Acontece Angola */,
+				F263686F1CA8A98000DF3B0C /* Acontece AngolaTests */,
+				F263687A1CA8A98000DF3B0C /* Acontece AngolaUITests */,
+				F26368551CA8A98000DF3B0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26368551CA8A98000DF3B0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26368541CA8A98000DF3B0C /* Acontece Angola.app */,
+				F263686C1CA8A98000DF3B0C /* Acontece AngolaTests.xctest */,
+				F26368771CA8A98000DF3B0C /* Acontece AngolaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26368561CA8A98000DF3B0C /* Acontece Angola */ = {
+			isa = PBXGroup;
+			children = (
+				F26368571CA8A98000DF3B0C /* AppDelegate.swift */,
+				F26368591CA8A98000DF3B0C /* RootViewController.swift */,
+				F263685B1CA8A98000DF3B0C /* DataViewController.swift */,
+				F263685D1CA8A98000DF3B0C /* ModelController.swift */,
+				F263685F1CA8A98000DF3B0C /* Main.storyboard */,
+				F26368621CA8A98000DF3B0C /* Assets.xcassets */,
+				F26368641CA8A98000DF3B0C /* LaunchScreen.storyboard */,
+				F26368671CA8A98000DF3B0C /* Info.plist */,
+			);
+			path = "Acontece Angola";
+			sourceTree = "<group>";
+		};
+		F263686F1CA8A98000DF3B0C /* Acontece AngolaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26368701CA8A98000DF3B0C /* Acontece_AngolaTests.swift */,
+				F26368721CA8A98000DF3B0C /* Info.plist */,
+			);
+			path = "Acontece AngolaTests";
+			sourceTree = "<group>";
+		};
+		F263687A1CA8A98000DF3B0C /* Acontece AngolaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F263687B1CA8A98000DF3B0C /* Acontece_AngolaUITests.swift */,
+				F263687D1CA8A98000DF3B0C /* Info.plist */,
+			);
+			path = "Acontece AngolaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26368531CA8A98000DF3B0C /* Acontece Angola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26368801CA8A98000DF3B0C /* Build configuration list for PBXNativeTarget "Acontece Angola" */;
+			buildPhases = (
+				F26368501CA8A98000DF3B0C /* Sources */,
+				F26368511CA8A98000DF3B0C /* Frameworks */,
+				F26368521CA8A98000DF3B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Acontece Angola";
+			productName = "Acontece Angola";
+			productReference = F26368541CA8A98000DF3B0C /* Acontece Angola.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F263686B1CA8A98000DF3B0C /* Acontece AngolaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26368831CA8A98000DF3B0C /* Build configuration list for PBXNativeTarget "Acontece AngolaTests" */;
+			buildPhases = (
+				F26368681CA8A98000DF3B0C /* Sources */,
+				F26368691CA8A98000DF3B0C /* Frameworks */,
+				F263686A1CA8A98000DF3B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F263686E1CA8A98000DF3B0C /* PBXTargetDependency */,
+			);
+			name = "Acontece AngolaTests";
+			productName = "Acontece AngolaTests";
+			productReference = F263686C1CA8A98000DF3B0C /* Acontece AngolaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F26368761CA8A98000DF3B0C /* Acontece AngolaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26368861CA8A98000DF3B0C /* Build configuration list for PBXNativeTarget "Acontece AngolaUITests" */;
+			buildPhases = (
+				F26368731CA8A98000DF3B0C /* Sources */,
+				F26368741CA8A98000DF3B0C /* Frameworks */,
+				F26368751CA8A98000DF3B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26368791CA8A98000DF3B0C /* PBXTargetDependency */,
+			);
+			name = "Acontece AngolaUITests";
+			productName = "Acontece AngolaUITests";
+			productReference = F26368771CA8A98000DF3B0C /* Acontece AngolaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F263684C1CA8A98000DF3B0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tato Mitue Technologies Inc.";
+				TargetAttributes = {
+					F26368531CA8A98000DF3B0C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H457Z5S5AZ;
+					};
+					F263686B1CA8A98000DF3B0C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H457Z5S5AZ;
+						TestTargetID = F26368531CA8A98000DF3B0C;
+					};
+					F26368761CA8A98000DF3B0C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H457Z5S5AZ;
+						TestTargetID = F26368531CA8A98000DF3B0C;
+					};
+				};
+			};
+			buildConfigurationList = F263684F1CA8A98000DF3B0C /* Build configuration list for PBXProject "Acontece Angola" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F263684B1CA8A98000DF3B0C;
+			productRefGroup = F26368551CA8A98000DF3B0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26368531CA8A98000DF3B0C /* Acontece Angola */,
+				F263686B1CA8A98000DF3B0C /* Acontece AngolaTests */,
+				F26368761CA8A98000DF3B0C /* Acontece AngolaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26368521CA8A98000DF3B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26368661CA8A98000DF3B0C /* LaunchScreen.storyboard in Resources */,
+				F26368631CA8A98000DF3B0C /* Assets.xcassets in Resources */,
+				F26368611CA8A98000DF3B0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F263686A1CA8A98000DF3B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26368751CA8A98000DF3B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26368501CA8A98000DF3B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F263685A1CA8A98000DF3B0C /* RootViewController.swift in Sources */,
+				F263685E1CA8A98000DF3B0C /* ModelController.swift in Sources */,
+				F263685C1CA8A98000DF3B0C /* DataViewController.swift in Sources */,
+				F26368581CA8A98000DF3B0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26368681CA8A98000DF3B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26368711CA8A98000DF3B0C /* Acontece_AngolaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26368731CA8A98000DF3B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F263687C1CA8A98000DF3B0C /* Acontece_AngolaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F263686E1CA8A98000DF3B0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26368531CA8A98000DF3B0C /* Acontece Angola */;
+			targetProxy = F263686D1CA8A98000DF3B0C /* PBXContainerItemProxy */;
+		};
+		F26368791CA8A98000DF3B0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26368531CA8A98000DF3B0C /* Acontece Angola */;
+			targetProxy = F26368781CA8A98000DF3B0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F263685F1CA8A98000DF3B0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26368601CA8A98000DF3B0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F26368641CA8A98000DF3B0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26368651CA8A98000DF3B0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F263687E1CA8A98000DF3B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F263687F1CA8A98000DF3B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26368811CA8A98000DF3B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Acontece Angola/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMTinc.Acontece-Angola";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F26368821CA8A98000DF3B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Acontece Angola/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMTinc.Acontece-Angola";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F26368841CA8A98000DF3B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Acontece AngolaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMTinc.Acontece-AngolaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acontece Angola.app/Acontece Angola";
+			};
+			name = Debug;
+		};
+		F26368851CA8A98000DF3B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Acontece AngolaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMTinc.Acontece-AngolaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acontece Angola.app/Acontece Angola";
+			};
+			name = Release;
+		};
+		F26368871CA8A98000DF3B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Acontece AngolaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMTinc.Acontece-AngolaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Acontece Angola";
+			};
+			name = Debug;
+		};
+		F26368881CA8A98000DF3B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Acontece AngolaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMTinc.Acontece-AngolaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Acontece Angola";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F263684F1CA8A98000DF3B0C /* Build configuration list for PBXProject "Acontece Angola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F263687E1CA8A98000DF3B0C /* Debug */,
+				F263687F1CA8A98000DF3B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26368801CA8A98000DF3B0C /* Build configuration list for PBXNativeTarget "Acontece Angola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26368811CA8A98000DF3B0C /* Debug */,
+				F26368821CA8A98000DF3B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F26368831CA8A98000DF3B0C /* Build configuration list for PBXNativeTarget "Acontece AngolaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26368841CA8A98000DF3B0C /* Debug */,
+				F26368851CA8A98000DF3B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F26368861CA8A98000DF3B0C /* Build configuration list for PBXNativeTarget "Acontece AngolaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26368871CA8A98000DF3B0C /* Debug */,
+				F26368881CA8A98000DF3B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F263684C1CA8A98000DF3B0C /* Project object */;
+}

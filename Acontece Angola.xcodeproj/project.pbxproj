@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F26368581CA8A98000DF3B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26368571CA8A98000DF3B0C /* AppDelegate.swift */; };
-		F263685A1CA8A98000DF3B0C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26368591CA8A98000DF3B0C /* RootViewController.swift */; };
-		F263685C1CA8A98000DF3B0C /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263685B1CA8A98000DF3B0C /* DataViewController.swift */; };
-		F263685E1CA8A98000DF3B0C /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263685D1CA8A98000DF3B0C /* ModelController.swift */; };
 		F26368611CA8A98000DF3B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F263685F1CA8A98000DF3B0C /* Main.storyboard */; };
 		F26368631CA8A98000DF3B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26368621CA8A98000DF3B0C /* Assets.xcassets */; };
 		F26368661CA8A98000DF3B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26368641CA8A98000DF3B0C /* LaunchScreen.storyboard */; };
@@ -38,9 +35,6 @@
 /* Begin PBXFileReference section */
 		F26368541CA8A98000DF3B0C /* Acontece Angola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acontece Angola.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26368571CA8A98000DF3B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F26368591CA8A98000DF3B0C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		F263685B1CA8A98000DF3B0C /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		F263685D1CA8A98000DF3B0C /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		F26368601CA8A98000DF3B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F26368621CA8A98000DF3B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26368651CA8A98000DF3B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,9 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				F26368571CA8A98000DF3B0C /* AppDelegate.swift */,
-				F26368591CA8A98000DF3B0C /* RootViewController.swift */,
-				F263685B1CA8A98000DF3B0C /* DataViewController.swift */,
-				F263685D1CA8A98000DF3B0C /* ModelController.swift */,
 				F263685F1CA8A98000DF3B0C /* Main.storyboard */,
 				F26368621CA8A98000DF3B0C /* Assets.xcassets */,
 				F26368641CA8A98000DF3B0C /* LaunchScreen.storyboard */,
@@ -265,9 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F263685A1CA8A98000DF3B0C /* RootViewController.swift in Sources */,
-				F263685E1CA8A98000DF3B0C /* ModelController.swift in Sources */,
-				F263685C1CA8A98000DF3B0C /* DataViewController.swift in Sources */,
 				F26368581CA8A98000DF3B0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Acontece Angola/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TMTinc.Acontece-Angola";
@@ -423,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Acontece Angola/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TMTinc.Acontece-Angola";
